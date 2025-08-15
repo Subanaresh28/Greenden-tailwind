@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <!--Tailwind cdn link-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <!--Responsive Navbar-->
+    <nav class="bg-green-200 p-2 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">
+            Greenden
+        </h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="h-6 w-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+            <li class="hover:underline hover:text-black">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="hover:underline hover:text-black">
+                <a href="product.html">Product</a>
+            </li>
+            <li class="hover:underline hover:text-black">
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!--products-->
+    <section class="p-2 text-center m-5">
+        <h1 class="font-bold text-3xl mt-5">Our Products</h1>
+        <input type="text" placeholder="Search for a product..." class="border border-black p-2 mt-3" style="width: 80%;">
+        <div class="grid grid-cols-2 mt-5 gap-5 md:grid-cols-4">
+            <div>
+                <img src="./Images/bestseller_1.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Rose Pot</h1>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./Images/bestseller_2.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Hibiscus Pot</h1>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./Images/bestseller_3.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Chrysanthemum Pot</h1>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./Images/bestseller_4.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Lilly Pot</h1>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./Images/bestseller_5.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Snake Pot</h1>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./Images/bestseller_6.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Morning Glory Hanging Pot</h1>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./Images/bestseller_7.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Sunflower Metal Pot</h1>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./Images/bestseller_8.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Seasonal Wooden Planters</h1>
+                <p>$20</p>
+            </div>
+        </div>
+
+    </section>
+    <!--footer-->
+    <section class="p-3 bg-green-200">
+        <h1 class="font-bold text-3xl">Greenden</h1>
+        <div class="flex gap-10 mt-4">
+            <div>
+                <h3 class="font-bold text-1xl">Shop</h3>
+                <p class="underline cursor-pointer">Indoor Plants</p>
+                <p class="underline cursor-pointer">Outdoor Plants</p>
+                <p class="underline cursor-pointer">Flowering Plants</p>
+                <p class="underline cursor-pointer">Plant Pots & Planters</p>
+            </div>
+            <div>
+                <h3 class="font-bold text-1xl">Connect with us</h3>
+                <p class="underline cursor-pointer">Instagram</p>
+                <p class="underline cursor-pointer">Facebook</p>
+                <p class="underline cursor-pointer">Youtube</p>
+                <p class="underline cursor-pointer">Email Newsletter Signup</p>
+            </div>
+            <div>
+                <h3 class="font-bold text-1xl">Policies</h3>
+                <p class="underline cursor-pointer">Terms & Condition</p>
+                <p class="underline cursor-pointer">Privacy Policy</p>
+                <p class="underline cursor-pointer">Refund Policy</p>
+                <p class="underline cursor-pointer">Cookie Policy</p>
+            </div>
+            <div>
+                <h3 class="font-bold text-1xl">Customer Services</h3>
+                <p class="underline cursor-pointer">Shipping & Delivery</p>
+                <p class="underline cursor-pointer">Return & Refund</p>
+                <p class="underline cursor-pointer">Order Tracking</p>
+                <p class="underline cursor-pointer">COntact Us</p>
+            </div>
+            
+        </div>
+        <div>
+                <h1 class="font-bold text-xl mt-5">Greeden</h1>
+                <p>&copy; Greenden, Inc</p>
+            </div>
+    </section>
+
+</body>
+</html>
